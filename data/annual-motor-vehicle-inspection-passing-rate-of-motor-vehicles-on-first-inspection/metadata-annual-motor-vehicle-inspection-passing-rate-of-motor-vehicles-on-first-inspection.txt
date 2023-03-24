@@ -1,0 +1,74 @@
+# Metadata for Annual Motor Vehicle Inspection - Passing Rate of Motor Vehicles on First Inspection
+---
+Identifier: '3e12eb9f-4f3a-4cfc-ae76-ec70d3b9795d'
+Name: 'annual-motor-vehicle-inspection-passing-rate-of-motor-vehicles-on-first-inspection'
+Title: 'Annual Motor Vehicle Inspection - Passing Rate of Motor Vehicles on First
+  Inspection'
+Description:
+  - 'Motor vehicles passing rate on first inspection.'
+  - ''
+Topics:
+  - 'Transport'
+Keywords:
+  - 'Motor vehicles'
+Publisher:
+  Name: 'Land Transport Authority'
+  Admin 1:
+    Name: 'Land Transport Authority'
+    Department: 'Land Transport Authority'
+    Email: 'Datamall@LTA.gov.sg'
+Sources:
+  - 'Land Transport Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2006-01-01 to 2017-12-31'
+Last Updated: '2018-03-13T09:55:13.820991'
+Resources:
+  -
+    Identifier: 'd0efb5d7-9348-41d8-9acf-ddbadca8fb22'
+    Title: 'Annual Motor Vehicle Inspection - Passing Rate of Motor Vehicles on First
+      Inspection'
+    Url: 'https://storage.data.gov.sg/annual-motor-vehicle-inspection-passing-rate-of-motor-vehicles-on-first-inspection/resources/annual-motor-vehicle-inspection-passing-rate-of-motor-vehicles-on-first-inspection-2018-03-13T09-55-13Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2017-12-31'
+    Description:
+      - 'Passing Rate of Motor Vehicles on First Inspection'
+      - ''
+      - 'MVP 06-1-Veh Insp'
+    Last Updated: '2018-03-13T09:55:13.426264'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'type'
+        Title: 'Vehicle Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'age'
+        Title: 'Age'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_reported'
+        Title: 'Reported'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Vehicles'
+      -
+        Name: 'number_passed'
+        Title: 'Passed'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Vehicles'
+      -
+        Name: 'passing_rate'
+        Title: 'Passing Rate'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

@@ -1,0 +1,104 @@
+# Metadata for CEA Salespersons Property Transaction Records (residential)
+---
+Identifier: '4ca1b4ae-a264-4eb2-940f-7d36db2ebbde'
+Name: 'cea-salesperson-residential-transaction-record'
+Title: 'CEA Salespersons’ Property Transaction Records (residential)'
+Description: 'Records of HDB resale flat transactions, HDB rentals, private rentals,
+  and private sales closed by salespersons. Records are updated monthly.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Housing'
+  - 'Property'
+  - 'Property Agent'
+  - 'Real Estate'
+Publisher:
+  Name: 'Council For Estate Agencies'
+  Admin 1:
+    Name: 'Nur Laila ABDUL AZIZ'
+    Department: 'Corporate Development'
+    Email: 'Nur_Laila_ABDUL_AZIZ@cea.gov.sg'
+  Admin 2:
+    Name: 'Melvin CHEONG'
+    Department: 'Licensing'
+    Email: 'Melvin_CHEONG@cea.gov.sg'
+Sources:
+  - 'Council For Estate Agencies'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '2017-01-01 to 2022-05-15'
+Last Updated: '2023-03-15T06:16:15.589735'
+Resources:
+  -
+    Identifier: '8a087b7c-a11b-4da8-bbb6-ac933f465acd'
+    Title: 'CEA Salespersons’ Property Transaction Records (residential)'
+    Url: 'https://storage.data.gov.sg/cea-salesperson-residential-transaction-record/resources/cea-salespersons-property-transaction-records-residential-2023-03-15T06-16-14Z.csv'
+    Format: 'CSV'
+    Coverage: '2017-01-01 to 2022-05-15'
+    Description: 'Records of HDB resale flat transactions, HDB rentals, private rentals,
+      and private sales closed by salespersons. Records are updated monthly.'
+    Last Updated: '2023-03-15T06:16:14.240549'
+    Schema:
+      -
+        Name: 'salesperson_name'
+        Title: 'Salesperson name'
+        Type: 'text'
+        Sub Type: 'general'
+        Description:
+          - 'Name of Salesperson representing the transaction'
+          - '"-" : Data is negligible or not significant'
+      -
+        Name: 'transaction_date'
+        Title: 'Transaction date'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'The month and year of Transaction Completion'
+      -
+        Name: 'salesperson_reg_num'
+        Title: 'Salesperson reg num'
+        Type: 'text'
+        Sub Type: 'general'
+        Description:
+          - 'Registration Number of Salesperson representing the transaction'
+          - '"-" : Data is negligible or not significant'
+      -
+        Name: 'property_type'
+        Title: 'Property type'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'Property type of transaction'
+      -
+        Name: 'transaction_type'
+        Title: 'Transaction type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'represented'
+        Title: 'Represented'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'Representing Seller/Buyer'
+      -
+        Name: 'town'
+        Title: 'Town'
+        Type: 'text'
+        Sub Type: 'general'
+        Description:
+          - 'Town area of transaction'
+          - '"-" : -'
+      -
+        Name: 'district'
+        Title: 'District'
+        Type: 'text'
+        Sub Type: 'general'
+        Description:
+          - 'District of transaction'
+          - '"-" : -'
+      -
+        Name: 'general_location'
+        Title: 'General location'
+        Type: 'text'
+        Sub Type: 'general'
+        Description:
+          - 'General Location of transaction'
+          - '"-" : -'
